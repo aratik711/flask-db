@@ -5,7 +5,7 @@ from send_email import send_email
 
 
 app=Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://aratikulkarni:1012247549Apk!@localhost/height_collector'
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:postgres123@localhost/height_collector'
 db=SQLAlchemy(app)
 
 
